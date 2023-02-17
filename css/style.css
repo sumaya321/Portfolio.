@@ -1,0 +1,281 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700;800;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+
+.Vcenter{
+	align-items: center;
+}
+.hBetween{
+	justify-content: space-between;
+}
+/* herobanner */
+
+.herobanner{
+	background-image: url(../images/banner.svg);
+	padding: 230px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.herocontent{
+    max-width: 725px;
+    margin: 0 auto;
+    text-align: center;
+}
+.herocontent h1{
+	font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+color: #FFFFFF;
+}
+.herocontent p{
+	font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin: 20px 0 30px;
+color: #FFFFFF;
+}
+
+.herocontent a{
+    background: #FFFFFF;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+color: #00AC11;
+text-decoration: none;
+padding: 20px 25px;
+display:inline-block ;
+}
+
+}
+
+/* About Me section */
+.aboutmesection{
+	padding: 50px 0;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	
+}
+.flex{
+display: flex;
+flex-wrap: wrap;
+}
+.column-2{
+	flex-basis: 50%;
+	max-width: 50%;
+	padding: 15px;
+
+}
+.padding-right{
+	padding-right: 140px;
+}
+.column-2 h2{
+	font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+
+color: #151414;
+}
+.column-2 p{
+	font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+margin: 20px 0;
+}
+
+.column-2 ul{
+	list-style: none;
+}
+
+.column-2 ul li{
+	
+	font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+display: flex;
+align-items: center;
+}
+
+
+.column-2 ul li img{
+    width: 24px;
+    margin-right: 10px;
+}
+.column-2 .portfolio{
+	max-width: 100%;
+}
+
+/*plans section*/
+.plansSection{
+	padding: 50px;
+	text-align: center;
+}
+.plansSection h2{
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	line-height: 47px;
+	color: #151414;
+	margin: 50px;
+}
+.column-4{
+	flex-basis: 25%;
+	max-width: 25%;
+}
+.column-4 h3{
+	font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #151414;
+margin: 24px 0 15px;
+}
+.column-4 p{
+	font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #737272;
+
+}
+.column-4 img{}
+
+/*plans section*/
+.CallNowSection{
+	background-image: url(../images/footerbanner.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.CallnowBox{
+	padding: 60px;
+	
+	background: linear-gradient(90deg, rgba(0, 95, 172, 0) 0%, #009349 100%);
+}
+.CallnowBox h2{
+	font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+margin-bottom: 25px;
+
+
+
+color: #FFFFFF;
+	max-width: 600px;
+}
+.CallnowBox a{
+	 background: #FFFFFF;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+color: #00AC11;
+text-decoration: none;
+padding: 20px 25px;
+display:inline-block ;
+
+}
+/** footer **/
+footer{
+	background-color: #27AE60;
+	padding: 130px;
+
+}
+.footerinfo{
+	flex-basis: 40%;
+	max-width: 40%;
+}
+.footerinfo h2{
+	font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #F8F8F8;
+margin: 16PX;
+}
+.footerinfo P{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+margin-bottom: 16PX;
+
+}
+
+.socialLink {
+	list-style: none;
+	display:flex;
+}
+.socialLink li{}
+.socialLink li a{
+	width: 45px;
+	background: #fff;
+	display: flex;
+	height: 45px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 20px;
+	color: #006AFF;
+	margin-right: 10PX;
+}
+.socialLink li a:hover{}
+
+
+.subscription{
+	flex-basis: 30%;
+	max-width: 30%;
+}
+.subscription h2{
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #F8F8F8;
+}
+.subscription form{}
+.subscription input[type="text"]{
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #F3F3F3;
+padding: 20px;
+width: 100%;
+margin-bottom: 20px;
+background: transparent;
+}
+.subscription input[type="submit"]{
+	background: #009355;
+	border-radius: 8px;
+	font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+padding: 20px;
+color: #ffffff;
+border: 0;
+}
+
+::placeholder{
+	color: white;
+}
+
+
+
+
+
